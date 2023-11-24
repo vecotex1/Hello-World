@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include "Header.h"
 
 int main()
 {
+    int a; 
+    std::cin >> a;
     std::cout << "Hello World!\n";
+    std::cout << std::endl;
+
+    foo(a);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
